@@ -13,6 +13,9 @@
 		09E85C1A29BA932300816551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E85C1929BA932300816551 /* Preview Assets.xcassets */; };
 		09E85C2529BA932300816551 /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E85C2429BA932300816551 /* SetTests.swift */; };
 		09E85C3029BA932300816551 /* SetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E85C2F29BA932300816551 /* SetUITests.swift */; };
+		09E85C4129BA934B00816551 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E85C4029BA934B00816551 /* SetCard.swift */; };
+		09E85C4629BA937A00816551 /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E85C4529BA937A00816551 /* SetCardDeck.swift */; };
+		09E85C4B29BA93AB00816551 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E85C4A29BA93AB00816551 /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		09E85C2B29BA932300816551 /* SetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E85C2F29BA932300816551 /* SetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUITests.swift; sourceTree = "<group>"; };
 		09E85C3129BA932300816551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E85C4029BA934B00816551 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		09E85C4529BA937A00816551 /* SetCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
+		09E85C4A29BA93AB00816551 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				09E85C1229BA932300816551 /* SetApp.swift */,
 				09E85C1429BA932300816551 /* ContentView.swift */,
+				09E85C4029BA934B00816551 /* SetCard.swift */,
+				09E85C4529BA937A00816551 /* SetCardDeck.swift */,
+				09E85C4A29BA93AB00816551 /* SetGame.swift */,
 				09E85C1629BA932300816551 /* Assets.xcassets */,
 				09E85C1B29BA932300816551 /* Info.plist */,
 				09E85C1829BA932300816551 /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E85C4129BA934B00816551 /* SetCard.swift in Sources */,
+				09E85C4629BA937A00816551 /* SetCardDeck.swift in Sources */,
+				09E85C4B29BA93AB00816551 /* SetGame.swift in Sources */,
 				09E85C1529BA932300816551 /* ContentView.swift in Sources */,
 				09E85C1329BA932300816551 /* SetApp.swift in Sources */,
 			);
